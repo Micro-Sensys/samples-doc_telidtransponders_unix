@@ -1,8 +1,7 @@
 # samples-doc_telidtransponders_unix / UNIX DOC sample code for TELID®200 sensor transponders
 This sample code is for handling **TELID®200** sensor transponders on devices running UNIX using a Micro-Sensys RFID reader
 
-[Test LINK: SPC communication mode](../doc/communication-modes/spc)
-//TODO Add link See "communication-modes/spc"
+> For details on DOC communication check [Useful Links](#Useful-Links) 
 
 ## Requirements
 * Java IDE (For implementing this sample *eclipse IDE* was used)
@@ -21,7 +20,7 @@ Using this class the communication port can be open/closed. Once the communicati
 Import this project into your IDE and check the communication port name for the RFID reader (for example */dev/ttyUSB0*) and fill the name into the *JComboBox*.
 Once the name is added to the code, start the debug/run session.
 
-//TODO screenshot!
+> **TODO screenshot!**
 <!--- ![Screenshot](screenshot/SampleCode_SpcControl_Java.png) --->
 
  1. Select the device you wish to connect to, and press CONNECT. Once the connect process finishes, the result will be shown in the EditText on the bottom side, and if the device is connected, the START button will be enabled.
@@ -36,8 +35,10 @@ Once the name is added to the code, start the debug/run session.
 		> sudo gpasswd --add [username] dialout
 
 ## Useful Links
- - [JAR Library and API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
- - [Check what is possible using our iID®DEMOsoft (section SENSORdemo) for PC! Download it using this link](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20DEMOsoft.zip)
+* [JAR Library and API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
+* Check what is possible using our iID®DEMOsoft (section SENSORdemo) for PC! Download it using [this link](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20DEMOsoft.zip)
+* GitHub *doc* repository: [Micro-Sensys/doc](https://github.com/Micro-Sensys/doc)
+	* [communication-modes/doc](https://github.com/Micro-Sensys/doc/tree/master/communication-modes/doc)
 
 ## Contact
 * For coding questions or questions about this sample code, you can use [support@microsensys.de](mailto:support@microsensys.de)
