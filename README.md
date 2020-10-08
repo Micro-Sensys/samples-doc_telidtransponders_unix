@@ -37,8 +37,8 @@ Once the name is added to the code, start the debug/run session.
 ## Useful Links
 * [JAR Library and API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
 * Check what is possible using our iID®DEMOsoft (section SENSORdemo) for PC! Download it using [this link](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20DEMOsoft.zip)
-* GitHub *doc* repository: [Micro-Sensys/doc](https://github.com/Micro-Sensys/doc)
-	* [communication-modes/doc](https://github.com/Micro-Sensys/doc/tree/master/communication-modes/doc)
+* GitHub *documentation* repository: [Micro-Sensys/documentation](https://github.com/Micro-Sensys/documentation)
+	* [communication-modes/doc](https://github.com/Micro-Sensys/documentation/tree/master/communication-modes/doc)
 
 ## Contact
 * For coding questions or questions about this sample code, you can use [support@microsensys.de](mailto:support@microsensys.de)
