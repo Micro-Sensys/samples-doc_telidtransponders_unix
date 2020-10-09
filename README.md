@@ -4,7 +4,7 @@ This sample code is for handling **TELID®200** sensor transponders on devices r
 > For details on DOC communication check [Useful Links](#Useful-Links) 
 
 ## Requirements
-* Java IDE (For implementing this sample *eclipse IDE* was used)
+* Java IDE (for example eclipse IDE)
 * Micro-Sensys RFID reader 
 * TELID®200 sensor transponders
 
@@ -20,8 +20,7 @@ Using this class the communication port can be open/closed. Once the communicati
 Import this project into your IDE and check the communication port name for the RFID reader (for example */dev/ttyUSB0*) and fill the name into the *JComboBox*.
 Once the name is added to the code, start the debug/run session.
 
-> **TODO screenshot!**
-<!--- ![Screenshot](screenshot/SampleCode_SpcControl_Java.png) --->
+![Screenshot](screenshot/SampleCode_GetSensor_Java.png)
 
  1. Select the device you wish to connect to, and press CONNECT. Once the connect process finishes, the result will be shown in the EditText on the bottom side, and if the device is connected, the START button will be enabled.
  2. Use *START* button to start the read Thread. The library will automatically detect the TELID® type and show the measurements
