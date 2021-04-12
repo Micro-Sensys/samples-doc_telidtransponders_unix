@@ -1,4 +1,4 @@
-# Sample code for .NET library
+# .NET DOC sample codes for TELID®200 sensor transponders
 This sample code is for handling **TELID®200** sensor transponders on devices running UNIX using a Micro-Sensys RFID reader
 
 > For details on DOC communication check [Useful Links](#Useful-Links) 
